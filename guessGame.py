@@ -17,6 +17,6 @@ while True: #used to run indefinetly untill 'break' is met
 
     play_again = input("Would You Wish to Play Again? (y/n)") #if user guessed correctly, it will prompt for a new game session, or break
     if play_again != "y":
-        break
-print("Thanks for playing")
+        break #breaks when player doesnt want to play
+print("THANKS FOR PLAYING")
 
